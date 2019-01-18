@@ -1,0 +1,29 @@
+{
+	"name": "eureka-base58-converter",
+	"version": "0.0.0",
+	"description": "Implementation of a Base58-Converter for EUREKA (Ethereum-based) addresses.",
+	"license": "MIT",
+	"repository": "lucaspelloni2/eureka-base58-converter",
+	"author": {
+		"name": "lucaspelloni2",
+		"email": "lucas_pelloni@hotmail.com",
+		"url": "github.com/eureka-blockchain-solutions/base58-address-generator"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.21.0"
+	}
+}
